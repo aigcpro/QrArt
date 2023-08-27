@@ -22,4 +22,4 @@
 ![公众号：玩转文本模型](https://s1.ax1x.com/2023/08/27/pPU02Yd.png)
 
 #### 项目QQ交流群（获取后端代码）
-![公众号：玩转文本模型](https://hiaix.cn/wp-content/uploads/2023/07/0810df700cb5f6b72bc3ab423ea029c.png)
+![公众号：玩转文本模型](https://s1.ax1x.com/2023/08/27/pPUDdr6.png)
