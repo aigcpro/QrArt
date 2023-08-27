@@ -1,0 +1,78 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/main/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/main/record/index",
+			"style": {
+				"navigationBarTitleText": "创作记录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/main/webview/webview",
+			"style": {
+				"navigationBarTitleText": "webview",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/main/login/login",
+			"style": {
+				"navigationBarTitleText": "授权登录",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/user/recharge/index",
+			"style": {
+				"navigationBarTitleText": "在线充值",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2B2D30",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/user/points/log",
+			"style": {
+				"navigationBarTitleText": "收支记录",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2B2D30",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/study/index/index",
+			"style": {
+				"navigationBarTitleText": "学院中心",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2B2D30",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/study/article/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#2B2D30",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

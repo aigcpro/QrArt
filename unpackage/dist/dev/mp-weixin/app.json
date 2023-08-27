@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/main/index/index",
+    "pages/main/record/index",
+    "pages/main/webview/webview",
+    "pages/main/login/login",
+    "pages/user/recharge/index",
+    "pages/user/points/log",
+    "pages/study/index/index",
+    "pages/study/article/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

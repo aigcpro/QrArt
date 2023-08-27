@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+rich-text {
+  font-size: 24rpx;
+  color: #f4f4f5;
+  line-height: 64rpx;
+}
+.block {
+  width: 100%;
+  background-color: #2B2D30;
+  position: relative;
+  top: -50rpx;
+  left: 0rpx;
+  border-radius: 30rpx 30rpx 0rpx 0rpx;
+}
+.block .tool {
+  margin-bottom: 15rpx;
+  padding: 30rpx;
+}
+.block .tool .share {
+  display: flex;
+  flex-direction: column;
+}
+.block .tool .share .item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30rpx;
+  border: 1rpx solid #f4f4f5;
+  border-radius: 10rpx;
+  padding: 15rpx;
+}
+.block .tool .share .item .icon {
+  width: 15%;
+}
+.block .tool .share .item .btn {
+  width: 25%;
+}
+.block .tool .share .item .content {
+  width: 60%;
+}
+.block .tool .share .item .content .title {
+  font-weight: bolder;
+  font-size: 32rpx;
+}
+.block .tool .share .item .content .desc {
+  color: #82848a;
+  font-weight: bolder;
+  margin: 10rpx 0rpx;
+  font-size: 24rpx;
+}
+.block .tool .share .item .content .speed {
+  color: #3975FB;
+}
+.block .tool .remarks {
+  margin-top: 15rpx;
+}
+.block .tool .submit {
+  margin-top: 30rpx;
+}
+.block .tool .head {
+  display: flex;
+  flex-direction: row;
+}
+.block .tool .head .title {
+  font-size: 32rpx;
+  color: #f4f4f5;
+  margin-left: 15rpx;
+}
+.block .tool .plan {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30rpx;
+}
+.block .tool .plan .item {
+  width: 30%;
+  border: 2rpx solid #d8d8d8;
+  text-align: center;
+  margin: 15rpx 0rpx;
+  padding: 20rpx 0rpx;
+  border-radius: 12rpx;
+  position: relative;
+}
+.block .tool .plan .item .badge {
+  position: absolute;
+  right: -20rpx;
+  top: -15rpx;
+}
+.block .tool .plan .item .number {
+  color: #3b75fa;
+  font-size: 36rpx;
+  font-weight: bolder;
+}
+.block .tool .plan .item .price {
+  color: #fa3534;
+  font-size: 28rpx;
+  margin-top: 15rpx;
+}
+.block .tool .plan .item .plan_name {
+  color: #666666;
+  font-weight: bolder;
+}
+.block .tool .plan .active {
+  border: 2rpx solid #5286fe !important;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80rpx 40rpx;
+  z-index: 999;
+  position: relative;
+}
+.header .left {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.header .left .text {
+  font-size: 32rpx;
+  margin-bottom: 15rpx;
+}
+.header .left .number {
+  font-size: 48rpx;
+  font-weight: bolder;
+}
+.header .right .u-button {
+  border-radius: 40rpx !important;
+}
+.header .right .u-button__text {
+  color: #5968f9 !important;
+}
+

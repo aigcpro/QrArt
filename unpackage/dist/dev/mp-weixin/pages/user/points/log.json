@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "收支记录",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#2B2D30",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}
