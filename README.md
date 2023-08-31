@@ -19,4 +19,4 @@
 ![公众号：玩转文本模型](https://www.openaix.top/wp-content/uploads/2023/08/4d40d0f7fb110216.png)
 
 #### 项目QQ交流群（获取后端代码）
-![公众号：玩转文本模型](https://hiaix.cn/wp-content/uploads/2023/07/0810df700cb5f6b72bc3ab423ea029c.png)
+![公众号：玩转文本模型](https://github-production-user-asset-6210df.s3.amazonaws.com/21351751/245364221-fd098516-6692-4a1f-8f02-d3a307f28541.png)
